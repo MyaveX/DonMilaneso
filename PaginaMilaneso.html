@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Milaneso - Diseño y Publicidad Personalizada</title>
+    <!-- Incluir la fuente Lemon Regular desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <style>
+        /* Definición de estilos generales */
+        body {
+            font-family: 'Lemon', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            height: 150px; /* Altura de la cabeza del logo */
+        }
+        header h1 {
+            margin: 10px 0;
+        }
+        header a {
+            text-decoration: none; /* Eliminar la línea debajo del enlace */
+            color: inherit; /* Mantener el color original del texto */
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffcc00;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .project, .blog-post {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .dog-elements {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 200px;
+            height: 200px;
+            opacity: 10;
+        }
+        .dog-footprints {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            width: 100px;
+            height: 100px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado con logotipo y título -->
+    <header>
+        <a href="#inicio">
+            <img src="file:///Users/claverito/Library/CloudStorage/GoogleDrive-claver52462@gmail.com/Mi%20unidad/Don%20Milaneso/Don%20Milaneso/donmilanesologocabeza_Mesa%20de%20trabajo%202%20copia.png">
+        </a>
+        <!-- Título que redirige al inicio -->
+        <a href="#inicio"><h1 id="inicio">Don Milaneso</h1></a> <!-- Aquí va la nueva línea -->
+        <p>Diseño y Publicidad Personalizada</p>
+    </header>
+    <!-- Barra de navegación -->
+    <nav>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Sección de Sobre Nosotros -->
+        <div id="sobre-nosotros" class="section">
+            <h2>Sobre Nosotros</h2>
+            <p>En Don Milaneso, nos especializamos en la creación y edición de publicidad personalizada. Ofrecemos una amplia gama de productos, incluyendo playeras, sudaderas, tazas, vasos, stickers, banners, y mucho más. Nuestro objetivo es proporcionar diseños únicos y de alta calidad que se adapten a las necesidades de nuestros clientes.</p>
+            <img src="file:///Users/claverito/Library/CloudStorage/GoogleDrive-claver52462@gmail.com/Mi%20unidad/Don%20Milaneso/Don%20Milaneso/silueta-08.png" alt="Elementos de perrito salchicha" class="dog-elements">
+        </div>
+        <!-- Sección de Proyectos -->
+        <div id="proyectos" class="section">
+            <h2>Proyectos</h2>
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1...</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2...</p>
+            </div>
+            <!-- Añadir más proyectos según sea necesario -->
+        </div>
+        <!-- Sección del Blog -->
+        <div id="blog" class="section">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Entrada de Blog 1</h3>
+                <p>Contenido de la entrada de blog 1...</p>
+            </div>
+            <div class="blog-post">
+                <h3>Entrada de Blog 2</h3>
+                <p>Contenido de la entrada de blog 2...</p>
+            </div>
+            <!-- Añadir más entradas de blog según sea necesario -->
+        </div>
+        <!-- Sección de Contacto -->
+        <div id="contacto" class="section">
+            <h2>Contacto</h2>
+            <p>Para más información, puedes contactarnos a través del siguiente formulario:</p>
+            <form>
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+            <img src="file:///Users/claverito/Library/CloudStorage/GoogleDrive-claver52462@gmail.com/Mi%20unidad/Don%20Milaneso/Don%20Milaneso/huellas-08.png" alt="Huellas de perrito salchicha" class="dog-footprints" alt="Huellas de perrito salchicha" class="dog-footprints">
+        </div>
+    </div>
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Don Milaneso. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
